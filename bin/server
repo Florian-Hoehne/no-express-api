@@ -1,0 +1,6 @@
+#!/usr/bin/env node
+
+const app       = require('../src/main')
+const config    = require('../src/config')
+
+app.init(config.server.port)

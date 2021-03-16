@@ -1,0 +1,6 @@
+GET localhost:8080/api/test////Hi?test=123
+Content-Type: text/plain
+
+###
+GET localhost:8080/api/echo
+Content-Type: text/plain
